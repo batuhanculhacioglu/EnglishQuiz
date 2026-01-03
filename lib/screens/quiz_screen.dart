@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/word_model.dart';
 import '../services/word_manager.dart';
+import '../services/tts_manager.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Word> sourceWords;
@@ -45,6 +46,10 @@ class _QuizScreenState extends State<QuizScreen> {
           ],
         ),
       );
+
+      if (_currentQuestion != null) {
+        ttsManager.autoSpeak(_currentQuestion!.english);
+      }
       return;
     }
 
@@ -100,13 +105,26 @@ class _QuizScreenState extends State<QuizScreen> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      _currentQuestion!.english,
-                      style: const TextStyle(
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.indigo,
-                      ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          _currentQuestion!.english,
+                          style: const TextStyle(
+                            fontSize: 32,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.indigo,
+                          ),
+                        ),
+                        IconButton(
+                          icon: const Icon(
+                            Icons.volume_up,
+                            color: Colors.indigo,
+                          ),
+                          onPressed: () =>
+                              ttsManager.speak(_currentQuestion!.english),
+                        ),
+                      ],
                     ),
                     const SizedBox(height: 15),
                     Container(

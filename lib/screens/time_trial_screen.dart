@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/word_model.dart';
 import '../services/word_manager.dart';
+import '../services/tts_manager.dart';
 
 class TimeTrialScreen extends StatefulWidget {
   final List<Word> words;
@@ -96,6 +97,10 @@ class _TimeTrialScreenState extends State<TimeTrialScreen> {
       _options.addAll(pool.take(4));
       _options.shuffle();
     });
+
+    if (_currentQuestion != null) {
+      ttsManager.autoSpeak(_currentQuestion!.english);
+    }
   }
 
   void _handleAnswer(Word selected) {
@@ -162,13 +167,23 @@ class _TimeTrialScreenState extends State<TimeTrialScreen> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text(
-                    _currentQuestion!.english,
-                    style: const TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.indigo,
-                    ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        _currentQuestion!.english,
+                        style: const TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.indigo,
+                        ),
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.volume_up, color: Colors.indigo),
+                        onPressed: () =>
+                            ttsManager.speak(_currentQuestion!.english),
+                      ),
+                    ],
                   ),
                   const SizedBox(height: 15),
                   Container(

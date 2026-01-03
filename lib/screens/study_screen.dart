@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/word_model.dart';
 import '../services/word_manager.dart';
+import '../services/tts_manager.dart';
 
 class StudyScreen extends StatefulWidget {
   const StudyScreen({super.key});
@@ -41,6 +42,7 @@ class _StudyScreenState extends State<StudyScreen> {
                       setState(() {
                         _currentIndex = index;
                       });
+                      ttsManager.autoSpeak(words[index].english);
                     },
                     itemBuilder: (context, index) {
                       return _buildFlipCard(words[index]);
@@ -75,14 +77,25 @@ class _StudyScreenState extends State<StudyScreen> {
               ),
             ),
             const Spacer(),
-            Text(
-              word.english,
-              style: const TextStyle(
-                fontSize: 36,
-                fontWeight: FontWeight.bold,
-                color: Colors.indigo,
-              ),
-              textAlign: TextAlign.center,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Flexible(
+                  child: Text(
+                    word.english,
+                    style: const TextStyle(
+                      fontSize: 36,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.indigo,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                IconButton(
+                  icon: const Icon(Icons.volume_up, color: Colors.indigo),
+                  onPressed: () => ttsManager.speak(word.english),
+                ),
+              ],
             ),
             const SizedBox(height: 10),
             Text(
@@ -139,5 +152,15 @@ class _StudyScreenState extends State<StudyScreen> {
         ),
       ),
     );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (wordManager.studyList.isNotEmpty) {
+        ttsManager.autoSpeak(wordManager.studyList[0].english);
+      }
+    });
   }
 }

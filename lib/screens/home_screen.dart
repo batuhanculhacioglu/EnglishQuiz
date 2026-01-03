@@ -4,6 +4,7 @@ import '../services/word_manager.dart';
 import 'study_screen.dart';
 import 'time_trial_screen.dart';
 import 'quiz_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -503,6 +504,20 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           const Divider(),
+
+          ListTile(
+            leading: const Icon(Icons.settings, color: Colors.grey),
+            title: const Text("Ayarlar"),
+            onTap: () {
+              Navigator.pop(context); // Drawer'ı kapat
+              // SettingsScreen'i import etmeyi unutmayın: import 'settings_screen.dart';
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const SettingsScreen()),
+              );
+            },
+          ),
+
           ListTile(
             leading: const Icon(Icons.delete_forever, color: Colors.red),
             title: const Text("Verileri Sıfırla"),
