@@ -196,14 +196,32 @@ class _TimeTrialScreenState extends State<TimeTrialScreen> {
                       color: Colors.indigo.shade50,
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    child: Text(
-                      _currentQuestion!.sampleEn,
-                      style: const TextStyle(
-                        fontSize: 16,
-                        fontStyle: FontStyle.italic,
-                        color: Colors.black87,
-                      ),
-                      textAlign: TextAlign.center,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Expanded(
+                          child: Text(
+                            _currentQuestion!.sampleEn,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontStyle: FontStyle.italic,
+                              color: Colors.black87,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        IconButton(
+                          icon: const Icon(
+                            Icons.volume_up,
+                            size: 20,
+                            color: Colors.indigo,
+                          ),
+                          constraints: const BoxConstraints(),
+                          padding: const EdgeInsets.only(left: 4),
+                          onPressed: () =>
+                              ttsManager.speak(_currentQuestion!.sampleEn),
+                        ),
+                      ],
                     ),
                   ),
                 ],

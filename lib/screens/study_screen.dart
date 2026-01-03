@@ -116,13 +116,34 @@ class _StudyScreenState extends State<StudyScreen> {
               ),
               child: Column(
                 children: [
-                  Text(
-                    "🇺🇸 ${word.sampleEn}",
-                    style: const TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 16,
-                    ),
-                    textAlign: TextAlign.center,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        // Cümle uzunsa alt satıra geçsin diye
+                        child: Text(
+                          "🇺🇸 ${word.sampleEn}",
+                          style: const TextStyle(
+                            fontStyle: FontStyle.italic,
+                            fontSize: 16,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                      IconButton(
+                        icon: const Icon(
+                          Icons.volume_up,
+                          size: 20,
+                          color: Colors.black54,
+                        ), // Daha küçük ikon
+                        constraints:
+                            const BoxConstraints(), // Butonun boşluğunu daraltır
+                        padding: const EdgeInsets.only(
+                          left: 8,
+                        ), // Hafif sol boşluk
+                        onPressed: () => ttsManager.speak(word.sampleEn),
+                      ),
+                    ],
                   ),
                   const Divider(color: Colors.white),
                   Text(
