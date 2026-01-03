@@ -1,0 +1,502 @@
+english,turkish,sampleEn,sampleTr
+Hello,Merhaba,Hello my friend.,Merhaba arkadaşım.
+Hi,Selam,Hi how are you?,Selam nasılsın?
+I,Ben,I am a student.,Ben bir öğrenciyim.
+You,Sen,You are my teacher.,Sen benim öğretmenimsin.
+He,O (Erkek),He is a doctor.,O bir doktordur.
+She,O (Kadın),She is happy.,O mutludur.
+We,Biz,We are family.,Biz aileyiz.
+They,Onlar,They are playing.,Onlar oynuyorlar.
+It,O (Cansız/Hayvan),It is a cat.,O bir kedi.
+Name,İsim,My name is Ali.,Benim ismim Ali.
+Yes,Evet,Yes I do.,Evet yaparım.
+No,Hayır,No thank you.,Hayır teşekkürler.
+Please,Lütfen,Please sit down.,Lütfen otur.
+Thanks,Teşekkürler,Thanks for help.,Yardım için teşekkürler.
+Good,İyi,This is good.,Bu iyi.
+Bad,Kötü,The weather is bad.,Hava kötü.
+Morning,Sabah,Good morning.,Günaydın (İyi sabahlar).
+Night,Gece,Good night.,İyi geceler.
+Day,Gün,Have a nice day.,İyi günler.
+Time,Zaman,What time is it?,Saat kaç?
+Today,Bugün,Today is Sunday.,Bugün Pazar.
+Tomorrow,Yarın,See you tomorrow.,Yarın görüşürüz.
+Yesterday,Dün,I worked yesterday.,Dün çalıştım.
+Week,Hafta,See you next week.,Haftaya görüşürüz.
+Year,Yıl,Happy new year.,Mutlu yıllar.
+Man,Adam,That man is tall.,Şu adam uzun.
+Woman,Kadın,She is a kind woman.,O kibar bir kadın.
+Boy,Erkek Çocuk,The boy runs.,Erkek çocuk koşar.
+Girl,Kız Çocuk,The girl reads.,Kız çocuk okur.
+Child,Çocuk,He is a child.,O bir çocuk.
+Family,Aile,I love my family.,Ailemi seviyorum.
+Father,Baba,My father works.,Babam çalışıyor.
+Mother,Anne,My mother cooks.,Annem yemek pişiriyor.
+Brother,Erkek Kardeş,My brother is here.,Erkek kardeşim burada.
+Sister,Kız Kardeş,My sister plays.,Kız kardeşim oynuyor.
+Water,Su,I drink water.,Su içerim.
+Bread,Ekmek,I eat bread.,Ekmek yerim.
+Milk,Süt,Do you like milk?,Süt sever misin?
+Tea,Çay,Hot tea please.,Sıcak çay lütfen.
+Coffee,Kahve,Black coffee please.,Sade kahve lütfen.
+Food,Yiyecek,The food is hot.,Yiyecek sıcak.
+House,Ev,My house is big.,Evim büyük.
+Home,Ev (Yuva),I go home.,Eve gidiyorum.
+School,Okul,The school is close.,Okul yakın.
+Work,İş,I go to work.,İşe gidiyorum.
+Job,Meslek/İş,I have a new job.,Yeni bir işim var.
+Book,Kitap,Read this book.,Bu kitabı oku.
+Pen,Kalem,Give me the pen.,Bana kalemi ver.
+Car,Araba,My car is blue.,Arabam mavi.
+Bus,Otobüs,The bus is late.,Otobüs gecikti.
+Door,Kapı,Open the door.,Kapıyı aç.
+Window,Pencere,Close the window.,Pencereyi kapat.
+Table,Masa,On the table.,Masanın üzerinde.
+Chair,Sandalye,A red chair.,Kırmızı bir sandalye.
+Phone,Telefon,My phone is new.,Telefonum yeni.
+Computer,Bilgisayar,I use a computer.,Bilgisayar kullanıyorum.
+City,Şehir,This city is nice.,Bu şehir güzel.
+Country,Ülke,Which country is this?,Bu hangi ülke?
+Street,Cadde,The street is long.,Cadde uzun.
+Sun,Güneş,The sun shines.,Güneş parlıyor.
+Moon,Ay,Look at the moon.,Aya bak.
+Rain,Yağmur,I like rain.,Yağmuru severim.
+Snow,Kar,Snow is white.,Kar beyazdır.
+Tree,Ağaç,A big tree.,Büyük bir ağaç.
+Flower,Çiçek,A nice flower.,Güzel bir çiçek.
+Cat,Kedi,My cat is white.,Kedim beyaz.
+Dog,Köpek,The dog barks.,Köpek havlıyor.
+Bird,Kuş,The bird flies.,Kuş uçuyor.
+Big,Büyük,A big house.,Büyük bir ev.
+Small,Küçük,A small car.,Küçük bir araba.
+Hot,Sıcak,The tea is hot.,Çay sıcak.
+Cold,Soğuk,The water is cold.,Su soğuk.
+Old,Eski/Yaşlı,An old man.,Yaşlı bir adam.
+New,Yeni,A new phone.,Yeni bir telefon.
+Happy,Mutlu,I am happy.,Mutluyum.
+Sad,Üzgün,Why are you sad?,Neden üzgünsün?
+Beautiful,Güzel,A beautiful day.,Güzel bir gün.
+Ugly,Çirkin,An ugly hat.,Çirkin bir şapka.
+Fast,Hızlı,Run fast.,Hızlı koş.
+Slow,Yavaş,Walk slow.,Yavaş yürü.
+Red,Kırmızı,A red apple.,Kırmızı bir elma.
+Blue,Mavi,The sky is blue.,Gökyüzü mavi.
+Green,Yeşil,Green grass.,Yeşil çimen.
+Yellow,Sarı,A yellow sun.,Sarı bir güneş.
+Black,Siyah,A black cat.,Siyah bir kedi.
+White,Beyaz,White snow.,Beyaz kar.
+One,Bir,One apple.,Bir elma.
+Two,İki,Two cars.,İki araba.
+Three,Üç,Three days.,Üç gün.
+Go,Gitmek,I go now.,Şimdi gidiyorum.
+Come,Gelmek,Come here.,Buraya gel.
+See,Görmek,I see you.,Seni görüyorum.
+Look,Bakmak,Look at that.,Şuna bak.
+Listen,Dinlemek,Listen to me.,Beni dinle.
+Speak,Konuşmak,I speak English.,İngilizce konuşurum.
+Read,Okumak,Read a book.,Kitap oku.
+Write,Yazmak,Write a letter.,Mektup yaz.
+Eat,Yemek,Eat food.,Yemek ye.
+Drink,İçmek,Drink water.,Su iç.
+Sleep,Uyumak,Sleep well.,İyi uyu.
+Four,Dört,I have four pens.,Dört kalemim var.
+Five,Beş,Give me five minutes.,Bana beş dakika ver.
+Six,Altı,She is six years old.,O altı yaşında.
+Seven,Yedi,Seven days in a week.,Haftada yedi gün vardır.
+Eight,Sekiz,Wake up at eight.,Sekizde uyan.
+Nine,Dokuz,It is nine o'clock.,Saat dokuz.
+Ten,On,Ten fingers.,On parmak.
+Twenty,Yirmi,Twenty dollars.,Yirmi dolar.
+Hundred,Yüz,A hundred people.,Yüz insan.
+First,Birinci,This is the first time.,Bu birinci sefer.
+Second,İkinci,The second floor.,İkinci kat.
+Minute,Dakika,Wait a minute.,Bir dakika bekle.
+Hour,Saat (Süre),One hour later.,Bir saat sonra.
+Walk,Yürümek,I walk to school.,Okula yürürüm.
+Play,Oynamak,Children play in the park.,Çocuklar parkta oynar.
+Study,Ders Çalışmak,I study English.,İngilizce çalışıyorum.
+Learn,Öğrenmek,We learn fast.,Hızlı öğreniyoruz.
+Teach,Öğretmek,She teaches math.,O matematik öğretir.
+Buy,Satın Almak,I want to buy bread.,Ekmek almak istiyorum.
+Sell,Satmak,They sell cars.,Onlar araba satıyorlar.
+Pay,Ödemek,Pay the bill.,Hesabı öde.
+Start,Başlamak,Let's start.,Hadi başlayalım.
+Stop,Durmak,Stop the car.,Arabayı durdur.
+Finish,Bitirmek,Finish your food.,Yemeğini bitir.
+Head,Baş/Kafa,My head hurts.,Başım ağrıyor.
+Hair,Saç,She has long hair.,Onun uzun saçları var.
+Eye,Göz,Close your eyes.,Gözlerini kapat.
+Ear,Kulak,I have two ears.,İki kulağım var.
+Nose,Burun,Touch your nose.,Burnuna dokun.
+Mouth,Ağız,Open your mouth.,Ağzını aç.
+Tooth,Diş,Brush your teeth.,Dişlerini fırçala.
+Hand,El,Wash your hands.,Ellerini yıka.
+Finger,Parmak,Five fingers.,Beş parmak.
+Arm,Kol,My arm is strong.,Kolum güçlü.
+Leg,Bacak,He broke his leg.,Bacağını kırdı.
+Foot,Ayak,My foot hurts.,Ayağım acıyor.
+Face,Yüz (Çehre),Wash your face.,Yüzünü yıka.
+Body,Vücut,Healthy body.,Sağlıklı vücut.
+Shirt,Gömlek,A white shirt.,Beyaz bir gömlek.
+T-shirt,Tişört,I like this t-shirt.,Bu tişörtü sevdim.
+Pants,Pantolon,Blue pants.,Mavi pantolon.
+Dress,Elbise,A red dress.,Kırmızı bir elbise.
+Skirt,Etek,She wears a skirt.,O etek giyer.
+Shoe,Ayakkabı,New shoes.,Yeni ayakkabılar.
+Sock,Çorap,Where are my socks?,Çoraplarım nerede?
+Hat,Şapka,Wear a hat.,Şapka tak.
+Coat,Mont/Kaban,It is cold wear a coat.,Hava soğuk mont giy.
+Jacket,Ceket,A leather jacket.,Deri bir ceket.
+Bag,Çanta,My bag is heavy.,Çantam ağır.
+Glasses,Gözlük,I need glasses.,Gözlüğe ihtiyacım var.
+Park,Park,Let's go to the park.,Hadi parka gidelim.
+Garden,Bahçe,A beautiful garden.,Güzel bir bahçe.
+Shop,Dükkan/Mağaza,The shop is open.,Dükkan açık.
+Market,Market/Pazar,I go to the market.,Markete gidiyorum.
+Bank,Banka,Where is the bank?,Banka nerede?
+Hospital,Hastane,Go to the hospital.,Hastaneye git.
+Hotel,Otel,A nice hotel.,Güzel bir otel.
+Airport,Havalimanı,To the airport please.,Havalimanına lütfen.
+Plane,Uçak,The plane flies.,Uçak uçar.
+Train,Tren,The train is fast.,Tren hızlıdır.
+Taxi,Taksi,Call a taxi.,Taksi çağır.
+Bicycle,Bisiklet,I ride a bicycle.,Bisiklet sürerim.
+Road,Yol,The road is long.,Yol uzun.
+Map,Harita,Look at the map.,Haritaya bak.
+Room,Oda,My room is clean.,Odam temiz.
+Kitchen,Mutfak,She is in the kitchen.,O mutfakta.
+Bathroom,Banyo,Where is the bathroom?,Banyo nerede?
+Bedroom,Yatak Odası,I sleep in the bedroom.,Yatak odasında uyurum.
+Wall,Duvar,A white wall.,Beyaz bir duvar.
+Floor,Zemin/Yer,Sit on the floor.,Yere otur.
+Music,Müzik,Listen to music.,Müzik dinle.
+Song,Şarkı,Sing a song.,Bir şarkı söyle.
+Movie,Film,Watch a movie.,Film izle.
+Game,Oyun,Play a game.,Oyun oyna.
+Picture,Resim,Nice picture.,Güzel resim.
+Paper,Kağıt,I need paper.,Kağıda ihtiyacım var.
+Key,Anahtar,Where is my key?,Anahtarım nerede?
+Money,Para,I have no money.,Param yok.
+Wallet,Cüzdan,My wallet is lost.,Cüzdanım kayıp.
+Bag,Çanta,Open your bag.,Çantanı aç.
+Box,Kutu,What is in the box?,Kutuda ne var?
+Gift,Hediye,This gift is for you.,Bu hediye senin için.
+Birthday,Doğum Günü,Happy birthday.,Doğum günün kutlu olsun.
+Party,Parti,Lets have a party.,Hadi parti yapalım.
+Friend,Arkadaş,My best friend.,En iyi arkadaşım.
+Teacher,Öğretmen,Listen to the teacher.,Öğretmeni dinle.
+Student,Öğrenci,I am a student.,Ben bir öğrenciyim.
+Doctor,Doktor,Call a doctor.,Doktor çağır.
+Nurse,Hemşire,The nurse helps.,Hemşire yardım eder.
+Police,Polis,Call the police.,Polisi ara.
+Driver,Sürücü,He is a good driver.,O iyi bir sürücü.
+Cook,Aşçı/Pişirmek,My mother cooks well.,Annem iyi yemek pişirir.
+Worker,İşçi,Hard worker.,Sıkı işçi.
+Boss,Patron,My boss is kind.,Patronum kibar.
+Here,Burada,I am here.,Buradayım.
+There,Orada,Go there.,Oraya git.
+Near,Yakın,Is it near?,Yakın mı?
+Far,Uzak,The school is far.,Okul uzak.
+Left,Sol,Turn left.,Sola dön.
+Right,Sağ/Doğru,Turn right.,Sağa dön.
+Monday,Pazartesi,See you on Monday.,Pazartesi görüşürüz.
+Tuesday,Salı,Tuesday is busy.,Salı günü yoğun.
+Wednesday,Çarşamba,Wednesday is the middle.,Çarşamba ortasıdır.
+Thursday,Perşembe,I have a meeting on Thursday.,Perşembe toplantım var.
+Friday,Cuma,Friday is my favorite day.,Cuma en sevdiğim gündür.
+Saturday,Cumartesi,We rest on Saturday.,Cumartesi dinleniriz.
+Sunday,Pazar,The park is full on Sunday.,Pazar günü park doludur.
+January,Ocak,It snows in January.,Ocak ayında kar yağar.
+February,Şubat,February is short.,Şubat kısadır.
+March,Mart,Spring starts in March.,Bahar Martta başlar.
+April,Nisan,April rains.,Nisan yağmurları.
+May,Mayıs,May is beautiful.,Mayıs güzeldir.
+June,Haziran,Schools close in June.,Okullar Haziranda kapanır.
+July,Temmuz,It is hot in July.,Temmuzda hava sıcaktır.
+August,Ağustos,We go holiday in August.,Ağustosta tatile gideriz.
+September,Eylül,School starts in September.,Okul Eylülde başlar.
+October,Ekim,October is cool.,Ekim serindir.
+November,Kasım,Rainy November.,Yağmurlu Kasım.
+December,Aralık,The year ends in December.,Yıl Aralıkta biter.
+Spring,İlkbahar,Flowers bloom in spring.,Çiçekler baharda açar.
+Summer,Yaz,I love summer.,Yazı severim.
+Autumn,Sonbahar,Leaves fall in autumn.,Sonbaharda yapraklar düşer.
+Winter,Kış,Winter is cold.,Kış soğuktur.
+Tall,Uzun (Boy),He is a tall man.,O uzun bir adam.
+Short,Kısa,The skirt is short.,Etek kısa.
+Fat,Şişman,The cat is fat.,Kedi şişman.
+Thin,Zayıf/İnce,He is very thin.,O çok zayıf.
+Rich,Zengin,A rich businessman.,Zengin bir iş adamı.
+Poor,Fakir,He helps poor people.,Fakir insanlara yardım eder.
+Cheap,Ucuz,This car is cheap.,Bu araba ucuz.
+Expensive,Pahalı,Gold is expensive.,Altın pahalıdır.
+Clean,Temiz,My room is clean.,Odam temiz.
+Dirty,Kirli,Your shoes are dirty.,Ayakkabıların kirli.
+Easy,Kolay,English is easy.,İngilizce kolaydır.
+Difficult,Zor,The exam was difficult.,Sınav zordu.
+Full,Dolu,The bus is full.,Otobüs dolu.
+Empty,Boş,The box is empty.,Kutu boş.
+Open,Açık,The door is open.,Kapı açık.
+Closed,Kapalı,The shop is closed.,Dükkan kapalı.
+Right,Doğru (Haklı),You are right.,Haklısın.
+Wrong,Yanlış,This answer is wrong.,Bu cevap yanlış.
+Same,Aynı,We have the same car.,Aynı arabaya sahibiz.
+Different,Farklı,Try something different.,Farklı bir şey dene.
+Breakfast,Kahvaltı,I eat eggs for breakfast.,Kahvaltıda yumurta yerim.
+Lunch,Öğle Yemeği,Lunch is at 12.,Öğle yemeği 12'de.
+Dinner,Akşam Yemeği,Dinner is ready.,Akşam yemeği hazır.
+Meat,Et,I like meat.,Et severim.
+Chicken,Tavuk,Chicken soup.,Tavuk çorbası.
+Fish,Balık,Fish swim in water.,Balık suda yüzer.
+Egg,Yumurta,Boiled egg.,Haşlanmış yumurta.
+Cheese,Peynir,I need cheese for pizza.,Pizza için peynire ihtiyacım var.
+Butter,Tereyağı,Bread and butter.,Ekmek ve tereyağı.
+Sugar,Şeker,No sugar please.,Şeker olmasın lütfen.
+Salt,Tuz,Pass the salt.,Tuzu uzat.
+Pepper,Biber,Red pepper.,Kırmızı biber.
+Fruit,Meyve,Eat more fruit.,Daha fazla meyve ye.
+Vegetable,Sebze,Fresh vegetables.,Taze sebzeler.
+Banana,Muz,Monkeys like banana.,Maymunlar muz sever.
+Orange,Portakal,Orange juice.,Portakal suyu.
+Lemon,Limon,Lemon is sour.,Limon ekşidir.
+Potato,Patates,Fried potatoes.,Patates kızartması.
+Tomato,Domates,Red tomato.,Kırmızı domates.
+Onion,Soğan,I cry when I cut onion.,Soğan doğrarken ağlarım.
+In,İçinde,In the box.,Kutunun içinde.
+On,Üstünde,On the table.,Masanın üstünde.
+At, -de/-da (Yer/Zaman),At home.,Evde.
+Under,Altında,Under the chair.,Sandalyenin altında.
+With,İle,Come with me.,Benimle gel.
+Without, -sız/-siz,Without sugar.,Şekersiz.
+For,İçin,This is for you.,Bu senin için.
+From, -den/-dan,From Turkey.,Türkiye'den.
+To, -e/-a (Yönelme),Go to school.,Okula git.
+About,Hakkında,Tell me about yourself.,Bana kendinden bahset.
+Ask,Sormak,Ask a question.,Bir soru sor.
+Answer,Cevaplamak,Answer the phone.,Telefona cevap ver.
+Call,Aramak (Seslenmek),Call me later.,Beni sonra ara.
+Help,Yardım Etmek,Please help me.,Lütfen bana yardım et.
+Live,Yaşamak,I live in Istanbul.,İstanbul'da yaşıyorum.
+Talk,Konuşmak,Do not talk.,Konuşma.
+Wait,Beklemek,Wait for me.,Beni bekle.
+Watch,İzlemek,Watch TV.,Televizyon izle.
+Wash,Yıkamak,Wash your face.,Yüzünü yıka.
+Clean,Temizlemek,Clean your room.,Odanı temizle.
+Sit,Oturmak,Sit down please.,Otur lütfen.
+Stand,Ayakta Durmak,Stand up.,Ayağa kalk.
+Dance,Dans Etmek,She likes to dance.,Dans etmeyi sever.
+Sing,Şarkı Söylemek,Sing a song.,Bir şarkı söyle.
+Swim,Yüzmek,I can swim.,Yüzebilirim.
+Drive,Sürmek,Drive carefully.,Dikkatli sür.
+Fly,Uçmak,Birds fly.,Kuşlar uçar.
+Jump,Zıplamak,Jump high.,Yükseğe zıpla.
+Smile,Gülümsemek,She smiled at me.,Bana gülümsedi.
+Cry,Ağlamak,Don't cry.,Ağlama.
+Kiss,Öpmek,Kiss the baby.,Bebeği öp.
+Love,Sevmek/Aşk,I love you.,Seni seviyorum.
+Like,Hoşlanmak,I like coffee.,Kahveden hoşlanırım.
+Hate,Nefret Etmek,I hate traffic.,Trafikten nefret ederim.
+Need,İhtiyaç Duymak,I need water.,Suya ihtiyacım var.
+Want,İstemek,I want to sleep.,Uyumak istiyorum.
+Use,Kullanmak,Use a pen.,Kalem kullan.
+Who,Kim,Who is that man?,Şu adam kim?
+What,Ne,What is this?,Bu nedir?
+Where,Nerede,Where do you live?,Nerede yaşıyorsun?
+When,Ne zaman,When is the party?,Parti ne zaman?
+Why,Neden,Why are you crying?,Neden ağlıyorsun?
+How,Nasıl,How do you go to work?,İşe nasıl gidersin?
+Which,Hangi,Which car is yours?,Hangi araba senin?
+Always,Her zaman,I always brush my teeth.,Her zaman dişlerimi fırçalarım.
+Usually,Genellikle,I usually wake up early.,Genellikle erken uyanırım.
+Often,Sık sık,Do you come here often?,Buraya sık sık gelir misin?
+Sometimes,Bazen,Sometimes I walk to work.,Bazen işe yürürüm.
+Never,Asla,I never eat meat.,Asla et yemem.
+Desk,Çalışma Masası,The book is on the desk.,Kitap çalışma masasında.
+Bed,Yatak,The bed is comfortable.,Yatak rahat.
+Lamp,Lamba,Turn on the lamp.,Lambayı aç.
+Mirror,Ayna,Look in the mirror.,Aynaya bak.
+Sofa,Kanepe,Sit on the sofa.,Kanepeye otur.
+Television,Televizyon,Watch television.,Televizyon izle.
+Radio,Radyo,Listen to the radio.,Radyo dinle.
+Clock,Duvar Saati,Look at the clock.,Saate bak.
+Cup,Fincan,A cup of coffee.,Bir fincan kahve.
+Glass,Bardak,A glass of water.,Bir bardak su.
+Plate,Tabak,Put it on the plate.,Tabağa koy.
+Fork,Çatal,Use a fork.,Çatal kullan.
+Spoon,Kaşık,I need a spoon for soup.,Çorba için kaşığa ihtiyacım var.
+Knife,Bıçak,The knife is sharp.,Bıçak keskin.
+Bottle,Şişe,A bottle of milk.,Bir şişe süt.
+Sky,Gökyüzü,The sky is blue.,Gökyüzü mavidir.
+Sea,Deniz,The sea is deep.,Deniz derindir.
+Ocean,Okyanus,The ocean is big.,Okyanus büyüktür.
+River,Nehir,We swim in the river.,Nehirde yüzeriz.
+Lake,Göl,The lake is calm.,Göl sakindir.
+Mountain,Dağ,Climb the mountain.,Dağa tırman.
+Forest,Orman,Animals live in the forest.,Hayvanlar ormanda yaşar.
+Beach,Plaj/Kumsal,Let's go to the beach.,Hadi plaja gidelim.
+Sand,Kum,The sand is hot.,Kum sıcak.
+Star,Yıldız,Look at the stars.,Yıldızlara bak.
+Cloud,Bulut,White clouds.,Beyaz bulutlar.
+Wind,Rüzgar,The wind blows.,Rüzgar esiyor.
+Fire,Ateş,Fire is hot.,Ateş sıcaktır.
+Horse,At,I ride a horse.,At binerim.
+Cow,İnek,Cows give milk.,İnekler süt verir.
+Sheep,Koyun,Sheep have wool.,Koyunların yünü vardır.
+Duck,Ördek,Ducks swim.,Ördekler yüzer.
+Mouse,Fare,The cat caught a mouse.,Kedi bir fare yakaladı.
+Lion,Aslan,The lion is the king.,Aslan kraldır.
+Tiger,Kaplan,Tigers are fast.,Kaplanlar hızlıdır.
+Bear,Ayı,Bears sleep in winter.,Ayılar kışın uyur.
+Elephant,Fil,Elephants are big.,Filler büyüktür.
+Monkey,Maymun,Monkeys climb trees.,Maymunlar ağaca tırmanır.
+Snake,Yılan,I am afraid of snakes.,Yılanlardan korkarım.
+Work,Çalışmak,I work in an office.,Bir ofiste çalışırım.
+Rest,Dinlenmek,You look tired rest.,Yorgun görünüyorsun dinlen.
+Travel,Seyahat etmek,I love to travel.,Seyahat etmeyi severim.
+Visit,Ziyaret etmek,Visit your grandparents.,Büyükanne ve büyükbabanı ziyaret et.
+Meet,Buluşmak/Tanışmak,Nice to meet you.,Tanıştığımıza memnun oldum.
+Wear,Giymek,Wear a coat.,Bir mont giy.
+Carry,Taşımak,Can you carry this bag?,Bu çantayı taşıyabilir misin?
+Break,Kırmak,Don't break the glass.,Bardağı kırma.
+Fix,Tamir etmek,Can you fix my car?,Arabamı tamir edebilir misin?
+Cut,Kesmek,Cut the paper.,Kağıdı kes.
+Make,Yapmak (Üretmek),I make a cake.,Kek yaparım.
+Do,Yapmak (Eylem),Do your homework.,Ödevini yap.
+Know,Bilmek,I know the answer.,Cevabı biliyorum.
+Think,Düşünmek,What do you think?,Ne düşünüyorsun?
+Understand,Anlamak,I don't understand.,Anlamıyorum.
+Believe,İnanmak,I believe you.,Sana inanıyorum.
+Remember,Hatırlamak,Do you remember me?,Beni hatırladın mı?
+Forget,Unutmak,Don't forget your keys.,Anahtarlarını unutma.
+Hope,Ummak,I hope so.,Umarım öyledir.
+Try,Denemek,Try again.,Tekrar dene.
+Find,Bulmak,I can't find my phone.,Telefonumu bulamıyorum.
+Lose,Kaybetmek,I don't want to lose.,Kaybetmek istemiyorum.
+Give,Vermek,Give me the book.,Kitabı bana ver.
+Take,Almak (Götürmek),Take the umbrella.,Şemsiyeyi al.
+Get,Almak (Edinmek),I need to get some food.,Biraz yiyecek almam lazım.
+Bring,Getirmek,Bring me water.,Bana su getir.
+Send,Göndermek,Send me an email.,Bana e-posta gönder.
+Brown,Kahverengi,Brown shoes.,Kahverengi ayakkabılar.
+Pink,Pembe,A pink flower.,Pembe bir çiçek.
+Orange,Turuncu,Orange shirt.,Turuncu gömlek.
+Grey,Gri,A grey cat.,Gri bir kedi.
+Purple,Mor,Purple grapes.,Mor üzümler.
+Hard,Sert/Zor,This rock is hard.,Bu kaya sert.
+Soft,Yumuşak,The pillow is soft.,Yastık yumuşak.
+Loud,Gürültülü,The music is loud.,Müzik gürültülü.
+Quiet,Sessiz,Be quiet please.,Lütfen sessiz ol.
+Busy,Meşgul,I am busy now.,Şu an meşgulüm.
+Free,Özgür/Müsait,Are you free tomorrow?,Yarın müsait misin?
+Late,Geç,Do not be late.,Geç kalma.
+Early,Erken,I wake up early.,Erken uyanırım.
+Ready,Hazır,Are you ready?,Hazır mısın?
+Important,Önemli,This is important.,Bu önemli.
+True,Doğru (Gerçek),It is a true story.,Bu gerçek bir hikaye.
+False,Yanlış (Sahte),True or false?,Doğru mu yanlış mı?
+Possible,Mümkün,Is it possible?,Bu mümkün mü?
+Safe,Güvenli,Is it safe here?,Burası güvenli mi?
+Dangerous,Tehlikeli,Lions are dangerous.,Aslanlar tehlikelidir.
+Tired,Yorgun,I am very tired today.,Bugün çok yorgunum.
+Hungry,Aç,I am hungry let's eat.,Karnım aç hadi yemek yiyelim.
+Thirsty,Susamış,I am thirsty I need water.,Susadım suya ihtiyacım var.
+Sick,Hasta,He is sick today.,O bugün hasta.
+Angry,Kızgın,Why are you angry?,Neden kızgınsın?
+Afraid,Korkmuş,Are you afraid of dogs?,Köpeklerden korkar mısın?
+Bored,Sıkılmış,I am bored let's go out.,Sıkıldım hadi dışarı çıkalım.
+Excited,Heyecanlı,I am excited for the trip.,Gezi için heyecanlıyım.
+Surprised,Şaşırmış,She was surprised.,O şaşırmıştı.
+Alone,Yalnız,I live alone.,Yalnız yaşıyorum.
+Together,Birlikte,We go to school together.,Okula birlikte gideriz.
+Married,Evli,Are you married?,Evli misin?
+Single,Bekar,He is single.,O bekar.
+Life,Hayat/Yaşam,Life is beautiful.,Hayat güzeldir.
+World,Dünya,The world is round.,Dünya yuvarlaktır.
+People,İnsanlar,There are many people here.,Burada çok insan var.
+Person,Kişi,One person.,Bir kişi.
+Child,Çocuk,A happy child.,Mutlu bir çocuk.
+Children,Çocuklar,Children are playing.,Çocuklar oynuyor.
+Parent,Ebeveyn,My parents are here.,Ebeveynlerim burada.
+Group,Grup,A small group.,Küçük bir grup.
+Team,Takım,Our team won.,Bizim takım kazandı.
+Member,Üye,He is a member of the club.,O kulübün bir üyesi.
+Fan,Hayran/Taraftar,I am a football fan.,Ben bir futbol hayranıyım.
+Ticket,Bilet,One bus ticket please.,Bir otobüs bileti lütfen.
+Passport,Pasaport,Show me your passport.,Bana pasaportunu göster.
+Luggage,Bagaj,My luggage is heavy.,Bagajım ağır.
+Suitcase,Bavul,Pack your suitcase.,Bavulunu hazırla.
+Station,İstasyon,Train station.,Tren istasyonu.
+Trip,Gezi/Yolculuk,Have a nice trip.,İyi yolculuklar.
+Holiday,Tatil,I am on holiday.,Tatildeyim.
+Weekend,Hafta sonu,See you at the weekend.,Hafta sonu görüşürüz.
+Address,Adres,What is your address?,Adresin nedir?
+Age,Yaş,What is your age?,Yaşın kaç?
+Email,E-posta,Send me an email.,Bana e-posta gönder.
+Internet,İnternet,The internet is slow.,İnternet yavaş.
+Website,Web sitesi,Visit our website.,Web sitemizi ziyaret et.
+Password,Şifre,Enter your password.,Şifreni gir.
+Message,Mesaj,Read the message.,Mesajı oku.
+Laptop,Dizüstü Bilgisayar,I have a new laptop.,Yeni bir dizüstü bilgisayarım var.
+Screen,Ekran,Look at the screen.,Ekrana bak.
+Keyboard,Klavye,Use the keyboard.,Klavyeyi kullan.
+Mouse,Fare (Bilgisayar),Click the mouse.,Fareye tıkla.
+Camera,Kamera,Take a photo with the camera.,Kamerayla fotoğraf çek.
+Photo,Fotoğraf,Nice photo.,Güzel fotoğraf.
+Video,Video,Watch this video.,Bu videoyu izle.
+News,Haberler,Watch the news.,Haberleri izle.
+Newspaper,Gazete,Read a newspaper.,Gazete oku.
+Magazine,Dergi,Fashion magazine.,Moda dergisi.
+Page,Sayfa,Open page ten.,Onuncu sayfayı aç.
+Story,Hikaye,Tell me a story.,Bana bir hikaye anlat.
+Question,Soru,I have a question.,Bir sorum var.
+Problem,Sorun/Problem,No problem.,Sorun yok.
+Idea,Fikir,Good idea.,İyi fikir.
+Plan,Plan,What is the plan?,Plan nedir?
+Lesson,Ders,The lesson starts now.,Ders şimdi başlıyor.
+Class,Sınıf,The class is big.,Sınıf büyük.
+Homework,Ödev,Do your homework.,Ödevini yap.
+Exam,Sınav,The exam is tomorrow.,Sınav yarın.
+Grade,Not/Derece,Good grades.,İyi notlar.
+Pen,Tükenmez Kalem,Blue pen.,Mavi tükenmez kalem.
+Pencil,Kurşun Kalem,I need a pencil.,Kurşun kaleme ihtiyacım var.
+Notebook,Defter,Write in your notebook.,Defterine yaz.
+Paper,Kağıt,A piece of paper.,Bir parça kağıt.
+Umbrella,Şemsiye,Take your umbrella.,Şemsiyeni al.
+Raincoat,Yağmurluk,Yellow raincoat.,Sarı yağmurluk.
+Clothes,Kıyafetler,New clothes.,Yeni kıyafetler.
+Size,Beden/Boyut,What is your size?,Bedenin nedir?
+Color,Renk,What is your favorite color?,En sevdiğin renk nedir?
+Price,Fiyat,What is the price?,Fiyatı nedir?
+Cash,Nakit,I pay with cash.,Nakit öderim.
+Credit Card,Kredi Kartı,Do you accept credit card?,Kredi kartı kabul ediyor musunuz?
+Sale,İndirim/Satış,Big sale today.,Bugün büyük indirim var.
+Store,Mağaza,Department store.,Büyük mağaza.
+Customer,Müşteri,The customer is happy.,Müşteri mutlu.
+Manager,Müdür,Talk to the manager.,Müdürle konuş.
+Office,Ofis,My office is near.,Ofisim yakın.
+Building,Bina,A tall building.,Yüksek bir bina.
+Elevator,Asansör,Take the elevator.,Asansöre bin.
+Stairs,Merdiven,Use the stairs.,Merdivenleri kullan.
+Up,Yukarı,Go up.,Yukarı git.
+Down,Aşağı,Sit down.,Aşağı otur.
+Into,İçine,Go into the house.,Evin içine gir.
+Out,Dışarı,Go out.,Dışarı çık.
+Behind,Arkada,Behind the car.,Arabanın arkasında.
+In front of,Önünde,In front of the school.,Okulun önünde.
+Next to,Bitişiğinde/Yanında,Sit next to me.,Yanıma otur.
+Between,Arasında,Between two cars.,İki arabanın arasında.
+High,Yüksek,High jump.,Yüksek atlama.
+Low,Alçak/Düşük,Low price.,Düşük fiyat.
+Strong,Güçlü,He is very strong.,O çok güçlü.
+Weak,Güçsüz/Zayıf,I feel weak.,Güçsüz hissediyorum.
+Sure,Emin,Are you sure?,Emin misin?
+Sorry,Üzgünüm,I am sorry.,Üzgünüm (Özür dilerim).
+Excuse me,Affedersiniz,Excuse me sir.,Affedersiniz beyefendi.
+Hello,Merhaba,Hello again.,Tekrar merhaba.
+Goodbye,Hoşça kal,Say goodbye.,Hoşça kal de.
+Bye,Güle güle,Bye see you.,Güle güle görüşürüz.
+Welcome,Hoş geldin,Welcome to our home.,Evimize hoş geldin.
+Language,Dil,English language.,İngiliz dili.
+Word,Kelime,One word.,Bir kelime.
+Number,Numara/Sayı,What is your number?,Numaran nedir?
+Count,Saymak,Can you count to ten?,Ona kadar sayabilir misin?
