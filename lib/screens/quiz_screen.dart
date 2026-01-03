@@ -46,11 +46,6 @@ class _QuizScreenState extends State<QuizScreen> {
           ],
         ),
       );
-
-      if (_currentQuestion != null) {
-        ttsManager.autoSpeak(_currentQuestion!.english);
-      }
-      return;
     }
 
     setState(() {
@@ -73,6 +68,10 @@ class _QuizScreenState extends State<QuizScreen> {
       _options.addAll(pool.take(4));
       _options.shuffle();
     });
+
+    if (_currentQuestion != null) {
+      ttsManager.autoSpeak(_currentQuestion!.english);
+    }
   }
 
   void _handleAnswer(Word selected) {
