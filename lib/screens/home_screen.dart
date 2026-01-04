@@ -5,6 +5,7 @@ import 'study_screen.dart';
 import 'time_trial_screen.dart';
 import 'quiz_screen.dart';
 import 'settings_screen.dart';
+import 'matching_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -193,69 +194,113 @@ class _HomeScreenState extends State<HomeScreen> {
                   const SizedBox(height: 15),
 
                   // 4. AKSİYON BUTONLARI
-                  SizedBox(
-                    height: 110,
-                    child: Row(
-                      children: [
-                        _gridButton(
-                          context,
-                          title: "Zamana\nKarşı",
-                          icon: Icons.timer,
-                          color: Colors.red.shade100,
-                          iconColor: Colors.red.shade900,
-                          onTap: () {
-                            if (wordManager.studyList.length < 5) {
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
-                                  content: Text(
-                                    "Seçili grupta en az 5 kelime olmalı!",
-                                  ),
-                                ),
-                              );
-                            } else {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (_) => TimeTrialScreen(
-                                    words: wordManager.studyList,
-                                  ),
-                                ),
-                              );
-                            }
-                          },
-                        ),
-                        const SizedBox(width: 10),
-                        _gridButton(
-                          context,
-                          title: "Test\nÇöz",
-                          icon: Icons.quiz,
-                          color: Colors.orange.shade100,
-                          iconColor: Colors.orange.shade900,
-                          onTap: () => Navigator.push(
+                  Column(
+                    children: [
+                      // --- ÜST SATIR (3 Buton) ---
+                      Row(
+                        children: [
+                          _gridButton(
                             context,
-                            MaterialPageRoute(
-                              builder: (_) => QuizScreen(
-                                sourceWords: wordManager.studyList,
+                            title: "Zamana\nKarşı",
+                            icon: Icons.timer,
+                            color: Colors.red.shade100,
+                            iconColor: Colors.red.shade900,
+                            onTap: () {
+                              if (wordManager.studyList.length < 5) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                    content: Text("En az 5 kelime gerekli!"),
+                                  ),
+                                );
+                              } else {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (_) => TimeTrialScreen(
+                                      words: wordManager.studyList,
+                                    ),
+                                  ),
+                                );
+                              }
+                            },
+                          ),
+                          const SizedBox(width: 10),
+                          _gridButton(
+                            context,
+                            title: "Test\nÇöz",
+                            icon: Icons.quiz,
+                            color: Colors.orange.shade100,
+                            iconColor: Colors.orange.shade900,
+                            onTap: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => QuizScreen(
+                                  sourceWords: wordManager.studyList,
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                        const SizedBox(width: 10),
-                        _gridButton(
-                          context,
-                          title: "Kelime\nKartları",
-                          icon: Icons.style,
-                          color: Colors.blue.shade100,
-                          iconColor: Colors.blue.shade900,
-                          onTap: () => Navigator.push(
+                          const SizedBox(width: 10),
+                          _gridButton(
                             context,
-                            MaterialPageRoute(
-                              builder: (_) => const StudyScreen(),
+                            title: "Kelime\nKartları",
+                            icon: Icons.style,
+                            color: Colors.blue.shade100,
+                            iconColor: Colors.blue.shade900,
+                            onTap: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => const StudyScreen(),
+                              ),
                             ),
                           ),
-                        ),
-                      ],
-                    ),
+                        ],
+                      ),
+
+                      const SizedBox(height: 10), // Satır arası boşluk
+                      // --- ALT SATIR (1 Buton + Boşluklar) ---
+                      Row(
+                        children: [
+                          // Yeni Buton: Kelime Eşleştirme
+                          _gridButton(
+                            context,
+                            title: "Kelime\nEşleştirme",
+                            icon: Icons.join_inner, // Uygun bir ikon
+                            color: Colors.teal.shade100,
+                            iconColor: Colors.teal.shade900,
+                            onTap: () {
+                              if (wordManager.studyList.length < 10) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                    content: Text(
+                                      "Eşleştirme için en az 10 kelime gerekli!",
+                                    ),
+                                  ),
+                                );
+                              } else {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (_) => MatchingScreen(
+                                      sourceWords: wordManager.studyList,
+                                    ),
+                                  ),
+                                );
+                              }
+                            },
+                          ),
+                          // Yanındaki boşluklar (Üstteki butonlarla hizalı durması için)
+                          const SizedBox(width: 10),
+                          const Expanded(
+                            child: SizedBox(),
+                          ), // 2. boş kutu yer tutucu
+                          const SizedBox(width: 10),
+                          const Expanded(
+                            child: SizedBox(),
+                          ), // 3. boş kutu yer tutucu
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
