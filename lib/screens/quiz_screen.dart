@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/word_model.dart';
 import '../services/word_manager.dart';
 import '../services/tts_manager.dart';
+import '../services/sound_manager.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Word> sourceWords;
@@ -74,17 +75,29 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
-  void _handleAnswer(Word selected) {
+  Future<void> _handleAnswer(Word selected) async {
     if (_answered) return;
+
     bool correct = (selected == _currentQuestion);
     wordManager.updateScore(_currentQuestion!, correct);
+
+    // 1. ÖNCE Görsel Geri Bildirimi Göster (Renkler değişsin)
     setState(() {
       _answered = true;
       _isCorrect = correct;
     });
-    Future.delayed(const Duration(milliseconds: 1000), () {
-      if (mounted) _nextQuestion();
-    });
+
+    // 2. SONRA Sesi Çal ve Bitmesini Bekle
+    if (correct) {
+      await soundManager.playCorrect();
+    } else {
+      await soundManager.playWrong();
+    }
+
+    // 3. EN SON Sonraki Soruya Geç (Eğer kullanıcı çıkmadıysa)
+    if (mounted) {
+      _nextQuestion();
+    }
   }
 
   @override

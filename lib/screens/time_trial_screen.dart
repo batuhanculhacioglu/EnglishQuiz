@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/word_model.dart';
 import '../services/word_manager.dart';
 import '../services/tts_manager.dart';
+import '../services/sound_manager.dart';
 
 class TimeTrialScreen extends StatefulWidget {
   final List<Word> words;
@@ -103,12 +104,14 @@ class _TimeTrialScreenState extends State<TimeTrialScreen> {
     }
   }
 
-  void _handleAnswer(Word selected) {
+  Future<void> _handleAnswer(Word selected) async {
+    // Süre bittiyse veya cevaplandıysa işlem yapma
     if (_answered || _remainingSeconds <= 0) return;
 
     bool correct = (selected == _currentQuestion);
     wordManager.updateScore(_currentQuestion!, correct);
 
+    // 1. ÖNCE Görsel Geri Bildirim ve Puanlama
     setState(() {
       _answered = true;
       _isCorrect = correct;
@@ -120,12 +123,23 @@ class _TimeTrialScreenState extends State<TimeTrialScreen> {
       }
     });
 
+    // Süre güncellemesinden sonra oyun bittiyse bitir
     if (_remainingSeconds <= 0) {
       _endGame();
+      return;
+    }
+
+    // 2. SONRA Sesi Çal ve Bitmesini Bekle
+    if (correct) {
+      await soundManager.playCorrect();
     } else {
-      Future.delayed(const Duration(milliseconds: 600), () {
-        if (mounted && _remainingSeconds > 0) _nextQuestion();
-      });
+      await soundManager.playWrong();
+    }
+
+    // 3. EN SON Sonraki Soruya Geç
+    // (Ses çalarken süre dolmuş olabilir, kontrol et)
+    if (mounted && _remainingSeconds > 0) {
+      _nextQuestion();
     }
   }
 

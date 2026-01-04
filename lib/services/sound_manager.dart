@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class SoundManager {
@@ -8,21 +9,27 @@ class SoundManager {
 
   SoundManager._internal();
 
-  Future<void> playSuccess() async {
+  // Ses çal ve bitene kadar bekle
+  Future<void> playCorrect() async {
     try {
       await _player.stop();
+      await _player.setVolume(0.5);
       await _player.play(AssetSource('sounds/success.mp3'));
+      // Ses bitene kadar bekle (veya en fazla 2 saniye bekle ki uygulama donmasın)
+      await _player.onPlayerComplete.first.timeout(const Duration(seconds: 3));
     } catch (e) {
-      print("Ses çalma hatası: $e");
+      debugPrint("Ses hatası: $e");
     }
   }
 
   Future<void> playWrong() async {
     try {
       await _player.stop();
+      await _player.setVolume(0.5);
       await _player.play(AssetSource('sounds/wrong.mp3'));
+      await _player.onPlayerComplete.first.timeout(const Duration(seconds: 3));
     } catch (e) {
-      print("Ses çalma hatası: $e");
+      debugPrint("Ses hatası: $e");
     }
   }
 }
